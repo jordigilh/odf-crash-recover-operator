@@ -13,7 +13,7 @@ jobs:
     name: Make build
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
     - name: Build the manifest
       run: |
         make build
@@ -22,7 +22,7 @@ jobs:
     name: Run unit tests
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
     - name: Run unit tests
       run: |
         make test
@@ -31,7 +31,7 @@ jobs:
     name: Generate manifests
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
     - name: Generate manifests
       run: |
         make generate
