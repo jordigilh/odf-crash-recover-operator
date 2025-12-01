@@ -3,7 +3,7 @@ module github.com/jordigilh/odf-node-recovery-operator
 go 1.23.6
 
 require (
-	github.com/hashicorp/go-version v1.7.0
+	github.com/hashicorp/go-version v1.8.0
 	github.com/onsi/ginkgo/v2 v2.23.4
 	github.com/onsi/gomega v1.37.0
 	github.com/openshift/api v3.9.1-0.20190924102528-32369d4db2ad+incompatible
